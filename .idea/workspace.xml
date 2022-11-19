@@ -9,14 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54b85c87-fad4-42bf-8ecc-f07bb08499f7" name="Changes" comment="MemberProject">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/member/bean/MemberVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/member/bean/MemberVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/member/dao/MemberDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/member/dao/MemberDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/member/util/FileUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/member/util/FileUpload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/delete_ok.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/delete_ok.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/member.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/member.css" afterDir="false" />
-    </list>
+    <list default="true" id="54b85c87-fad4-42bf-8ecc-f07bb08499f7" name="Changes" comment="MemberProject" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +142,7 @@
       <updated>1668748427124</updated>
       <workItem from="1668748428283" duration="3865000" />
       <workItem from="1668755163755" duration="6688000" />
-      <workItem from="1668767911015" duration="25069000" />
+      <workItem from="1668767911015" duration="25271000" />
     </task>
     <task id="LOCAL-00001" summary="MemberProject">
       <created>1668869527955</created>
@@ -172,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668870438883</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="MemberProject">
+      <created>1668876213035</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668876213035</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
