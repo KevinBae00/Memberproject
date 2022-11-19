@@ -41,8 +41,8 @@ public class FileUpload {
                 else if (filename == null && oldfilename != null) {
                     filename = oldfilename;
                 }
-                one.setPhoto(filename);
             }
+            one.setPhoto(filename);
         } catch (IOException e) {
             e.printStackTrace();
         }

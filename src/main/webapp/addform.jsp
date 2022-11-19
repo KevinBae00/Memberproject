@@ -4,7 +4,8 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Insert title here</title>
+    <title>회원추가 - 실전프로젝트 회원관리 V1</title>
+    <link rel="stylesheet" href="member.css">
 </head>
 <body>
 
@@ -21,7 +22,7 @@
         </tr>
         <tr>
             <td>Photo:</td>
-            <td><input type="file" name="photo"/></td>
+            <td><input type="file" name="photo" /></td>
         </tr>
         <tr>
             <td>Email:</td>
