@@ -12,9 +12,9 @@ import java.util.ArrayList;
 
 public class MemberDAO {
 
-    static Connection conn = null;
-    static PreparedStatement stmt = null;
-    static ResultSet rs = null;
+     static Connection conn = null;
+     static PreparedStatement stmt = null;
+     static ResultSet rs = null;
 
     private final String M_INSERT = "insert into member (userid, password, username, email,photo,detail)"
             + " values (?,sha1(?),?,?,?,?)";

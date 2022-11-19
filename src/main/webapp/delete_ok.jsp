@@ -12,7 +12,7 @@
 
 		String filename = MemberDAO.getPhotoFilename(id);
 		if(filename!=null)
-			FileUpload.deletFile(request,filename);
+			FileUpload.deleteFile(request,filename);;
 
 		memberDAO.deleteMember(u);
 	}

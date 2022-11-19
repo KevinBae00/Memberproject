@@ -15,7 +15,6 @@ public class FileUpload {
         int sizeLimit = 15 * 1024 * 1024;
 
         String realPath = request.getServletContext().getRealPath("upload");
-
         File dir = new File(realPath);
         if (!dir.exists()) dir.mkdirs();
 
@@ -34,11 +33,11 @@ public class FileUpload {
             one.setEmail(multipartRequest.getParameter("email"));
             one.setDetail(multipartRequest.getParameter("detail"));
 
-            if (sid != null && sid.equals("")) {
+            if (sid != null && !sid.equals("")) {
                 MemberDAO dao = new MemberDAO();
                 String oldfilename = dao.getPhotoFilename(Integer.parseInt(sid));
                 if (filename != null && oldfilename != null)
-                    FileUpload.deletFile(request, oldfilename);
+                    FileUpload.deleteFile(request, oldfilename);
                 else if (filename == null && oldfilename != null) {
                     filename = oldfilename;
                 }
@@ -50,10 +49,11 @@ public class FileUpload {
         return one;
     }
 
-    public static void deletFile(HttpServletRequest request, String filename){
+    public static void deleteFile(HttpServletRequest request, String filename){
         String filepath = request.getServletContext().getRealPath("upload");
 
         File f = new File(filepath + "/" +filename);
         if(f.exists())f.delete();
     }
+
 }

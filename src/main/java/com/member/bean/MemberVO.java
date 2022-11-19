@@ -90,4 +90,5 @@ public class MemberVO {
 	public void setCnt(int cnt) {
 		this.cnt = cnt;
 	}
+
 }
